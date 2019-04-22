@@ -10,18 +10,6 @@
 
 
         <title>Checklist - Zept</title>
-        
-        <!-- Hotjar Tracking Code for https://zept.co -->
-        <script>
-            (function(h,o,t,j,a,r){
-                h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-                h._hjSettings={hjid:1290559,hjsv:6};
-                a=o.getElementsByTagName('head')[0];
-                r=o.createElement('script');r.async=1;
-                r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-                a.appendChild(r);
-            })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-        </script>
 
 <!-- Zept Styles From Rendered CSS - !!!!!! DO NOT USE !!!!! -->
 <style>
@@ -358,7 +346,7 @@
      }
      
       @media only screen and (max-width: 600px) {
-           div.icon {
+           .modal div.icon {
             background: none !important;
            }
       }
@@ -410,6 +398,21 @@
      
      .modal .modal-footer {
        text-align: center !important;
+     }
+     
+     @media only screen and (max-width: 600px) {
+        .modal .btn {
+          width: 100%;
+          clear: both;
+        }
+        
+        .modal {
+            min-height: 80% !important;
+        }
+     }
+     
+     .modal .btn.main {
+       margin-bottom: 2em !important;
      }
      
 
@@ -590,13 +593,14 @@
                                     <div class="row">
                                       
                                        <div class="col s12">
-                                         <h5 class="header">Bristish Council</h5>
+                                        
                                           <div class="card horizontal">
                                             <!--div class="card-image">
                                               <img src="https://lorempixel.com/100/190/nature/6">
                                             </div-->
                                             <div class="card-stacked">
                                               <div class="card-content">
+                                                 <h5 class="header">Bristish Council</h5>
                                                 <p>There are a number of options for english language test preparation. One good opportunity is the free prep course offered through
                                                     the <a href="https://takeielts.britishcouncil.org/prepare-test/free-ielts-online-course" target="_blank">British Council</a>.</p>
                                               </div>
@@ -612,13 +616,14 @@
                                     <div class="row">
                                       
                                        <div class="col s12">
-                                          <h5 class="header">Duolingo</h5>
+                                          
                                           <div class="card horizontal">
                                             <!--div class="card-image">
                                               <img src="https://lorempixel.com/100/190/nature/6">
                                             </div-->
                                             <div class="card-stacked">
                                               <div class="card-content">
+                                                <h5 class="header">Duolingo</h5>
                                                 <p>An inexpensive way to test yourself before you take the IELTS or TOEFL is
                                                     <a href="https://englishtest.duolingo.com" target="_blank">Duolingo's english language test</a>.</p>
                                               </div>
@@ -1753,11 +1758,11 @@
                               <div class="modal-footer">
                                 <a href="#!" class="modal-close waves-effect waves-green btn">Try the checklist</a>
                               </div>
-                            </div
+                            </div-->
                             
                             <div style="position: fixed; bottom: 1em; right: .75em; z-index: 999999">
                               <a href="https://docs.google.com/forms/d/e/1FAIpQLSfo5pLnz4S2EFCsbWhyy7MJ41Y93zSQOrj8I5VnSYQGmhzhjA/viewform" class="waves-effect waves-light btn-large red" style="border-radius: 25px;"><i class="material-icons left" target="_blank">feedback</i>SEND FEEDBACK</a>
-                            </div>-->
+                            </div>
 
                         </div>
                     </div>
