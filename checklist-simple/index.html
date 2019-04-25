@@ -392,12 +392,21 @@
        padding: 0 .75rem;
      }
 
+     .modal ul {
+         margin-left: 2em;
+     }
+
+     .modal ul li {
+         list-style-type: circle;
+     }
+
      .modal .card-content p {
          padding: 0 !important;
      }
      
      .modal .modal-footer {
-       text-align: center !important;
+        text-align: center !important;
+        margin-bottom: 2em;
      }
      
      @media only screen and (max-width: 600px) {
@@ -414,8 +423,6 @@
            margin-bottom: 2em !important;
          }
      }
-     
-     
 
      /* Sizing Icon */
      .mdi:before {
@@ -874,13 +881,14 @@
                                     <h4><div class="icon"> <span class="mdi mdi-home-group"></span></div>Find accommodation</h4>
                                       <div class="row">
                                         <div class="col s12">
-                                          <h5 class="header">Padmapper</h5>
+
                                           <div class="card horizontal">
                                             <!--div class="card-image">
                                               <img src="https://lorempixel.com/100/190/nature/6">
                                             </div-->
                                             <div class="card-stacked">
                                               <div class="card-content">
+                                                  <h5 class="header">Padmapper</h5>
                                                 <p>Have you found a place to live while you study? If you are not able to find housing through your school, try looking online to find a place to live, try <a href="https://www.padmapper.com" target="_blank">Padmapper</a></p>
                                               </div>
                                               <div class="card-action">
@@ -902,7 +910,7 @@
                                 <div class="student-container-content-summary-box">
                                     <div class="icon"> <span class="mdi mdi-home-group"></span></div>
                                     <div class="summary-text">
-                                        <h6>Exchange currency !! Let's check these</h6>
+                                        <h6>Exchange currency</h6>
                                         <p>Exchange your currency</p>
                                     </div>
                                 </div>
@@ -917,14 +925,14 @@
                                     <div class="row">
   
                                       <div class="col s12">
-                                        <h5 class="header">Firmafx</h5>
                                         <div class="card horizontal">
                                           <!--div class="card-image">
                                               <img src="https://lorempixel.com/100/190/nature/6">
                                             </div-->
                                           <div class="card-stacked">
                                             <div class="card-content">
-                                              <p>Firmafx</p>
+                                                <h5 class="header">Firmafx</h5>
+                                              <p>Offers a variety of electronic payment methods and international banking networks</p>
                                             </div>
                                             <div class="card-action">
                                               <a href="https://firmafx.com" target="_blank">Visit Firmafx</a>
@@ -1017,7 +1025,7 @@
                                           <div class="card-stacked">
                                             <div class="card-content">
                                               <h5 class="header">IELTS</h5>
-                                              <p>IELTS description</p>
+                                              <p>IELTS is the high-stakes English test for study, migration or work.</p>
                                             </div>
                                             <div class="card-action">
                                               <a href="https://www.ielts.org/">Visit IELTS</a>
@@ -1039,7 +1047,7 @@
                                           <div class="card-stacked">
                                             <div class="card-content">
                                               <h5 class="header">TOEFL</h5>
-                                              <p>Description</p>
+                                              <p>The leading English-language test for study, immigration and work</p>
                                             </div>
                                             <div class="card-action">
                                               <a href="https://www.ets.org/toefl">Visit TOEFL</a>
@@ -1061,7 +1069,7 @@
                                 <div class="student-container-content-summary-box">
                                     <div class="icon"> <span class="mdi mdi-cash-multiple"></span></div>
                                     <div class="summary-text">
-                                        <h6>Apply for scholarships  !!!-- SImple make them go look for it</h6>
+                                        <h6>Apply for scholarships</h6>
                                         <p>Search online to find scholorships for your studies</p>
                                     </div>
                                 </div>
@@ -1071,45 +1079,7 @@
                             <div id="scholarships" class="modal">
                                 <div class="modal-content">
                                     <h4><div class="icon"> <span class="mdi mdi-cash-multiple"></span></div>Apply for scholarships</h4>
-                                    <p>Once you have chosen where to apply, make sure you investigate all of the available scholarships and bursaries you qualify for. Scholarships are unique for each school. If we have found information on scholarships from the schools you are applying to, we've provided them below; </p>
-                                    
-                                    <div class="row">
-                                      <div class="col s12">
-                                        <div class="card horizontal">
-                                          <!--div class="card-image">
-                                              <img src="https://lorempixel.com/100/190/nature/6">
-                                            </div-->
-                                          <div class="card-stacked">
-                                            <div class="card-content">
-                                              <h6><strong>Scholarship Title</strong></h6>
-                                              <p>[scholarshipurls]</p>
-                                            </div>
-                                            <div class="card-action">
-                                              <a href="#">This is a link</a>
-                                            </div>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div class="row">
-
-                                      <div class="col s12">
-                                        <div class="card horizontal">
-                                          <!--div class="card-image">
-                                            <img src="https://lorempixel.com/100/190/nature/6">
-                                          </div-->
-                                          <div class="card-stacked">
-                                            <div class="card-content">
-                                              <h6><strong>Scholarship Title </strong></h6>
-                                              <p>[scholarshipurls]</p>
-                                            </div>
-                                            <div class="card-action">
-                                              <a href="#">This is a link</a>
-                                            </div>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
+                                    <p>Once you have chosen where to apply, make sure you investigate all of the available scholarships and bursaries you qualify for. Scholarships are unique for each school.</p>
                                 </div>
                                 <div class="modal-footer">
                                     <a href="#!" class="modal-close waves-effect btn">Disregard</a>
@@ -1142,7 +1112,7 @@
                                           <div class="card-stacked">
                                             <div class="card-content">
                                               <h6><strong>StudyInsured</strong></h6>
-                                              <p>StudyInsured description</p>
+                                              <p>We offer comprehensive student plans to cover the cost of health care while studying abroad...</p>
                                             </div>
                                             <div class="card-action">
                                               <a href="https://www.studyinsured.com/zept">Visit StudyInsured</a>
@@ -1676,7 +1646,7 @@
                                 <div class="student-container-content-summary-box">
                                     <div class="icon"> <span class="mdi mdi-temperature-celsius"></span></div>
                                     <div class="summary-text">
-                                        <h6>Winter clothes !!!-- Let's get a list</h6>
+                                        <h6>Winter clothes</h6>
                                         <p>Bring / buy winter clothes</p>
                                         
                                     </div>
