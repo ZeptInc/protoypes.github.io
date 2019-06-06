@@ -23,9 +23,7 @@
     <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ca5fb11-7f92-41b1-b282-421a9f77751b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="5ca5fb11-7f92-41b1-b282-421a9f77751b" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -196,16 +194,15 @@
       <workItem from="1558991931849" duration="35000" />
       <workItem from="1559574578086" duration="1839000" />
       <workItem from="1559766254523" duration="3855000" />
-      <workItem from="1559771226630" duration="2743000" />
+      <workItem from="1559771226630" duration="2940000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75880000" />
+    <option name="totallyTimeSpent" value="76077000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="618" y="23" width="2286" height="1390" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1209713" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
